@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { Plate, SocketGroup } from "../types";
-import { groupExtent, validateGroup } from "../utils/geometry";
+import { validateGroup } from "../utils/geometry";
 
 type Params = {
   group: SocketGroup;

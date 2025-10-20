@@ -1,8 +1,8 @@
-import React from "react";
+// import React from "react";
 import { LIMITS } from "../constants";
 import NumberField from "./NumberField";
 import type { Plate } from "../types";
-import { clamp } from "../utils/geometry";
+// import { clamp } from "../utils/geometry";
 
 export default function StepPlates({
   plates,

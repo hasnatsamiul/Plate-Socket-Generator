@@ -17,7 +17,7 @@ export default function NumberField({
   label,
   value,
   onChange,
-  step = 0.1,
+  // step = 0.1,
   suffix = "cm",
   min,
   max,

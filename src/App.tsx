@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import "./styles.css";
 import type { Plate, SocketGroup } from "./types";
 import useLocalStorage from "./hooks/useLocalStorage";
@@ -97,9 +97,9 @@ export default function App() {
     return state.groups.filter((g) => g.plateId === focusedPlateId);
   }, [state.socketsEnabled, state.groups, focusedPlateId]);
 
-  const selectedPlate = state.selectedPlateId
-    ? state.plates.find((p) => p.id === state.selectedPlateId) || null
-    : null;
+  // const selectedPlate = state.selectedPlateId
+  //   ? state.plates.find((p) => p.id === state.selectedPlateId) || null
+  //   : null;
 
   /* ---------------------- Render ---------------------- */
 

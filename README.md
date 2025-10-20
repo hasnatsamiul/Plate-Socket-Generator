@@ -2,6 +2,10 @@
 
 An interactive builder that lets you design back panels (“plates”) and place socket groups on them with realistic, centimeter-based proportions. The canvas (left) renders plates to scale and supports dragging with live guides, while the controls (right) let you change sizes, add/delete plates, and fully configure socket groups. The UI is responsive (mobile/tablet friendly) and touch-enabled. This project is developed as part of the Rueckwand24 Frontend Technical Assessment.
 
+## Live Demo
+
+https://plate-socket-generator.netlify.app/
+
 ## Features
 
 - **Plate Management**
@@ -45,7 +49,7 @@ An interactive builder that lets you design back panels (“plates”) and place
   - Vite
   - Pure CSS
   - Custom React Hooks
-  - Vercel (deployment)
+  - Netlify (deployment)
 
 ## Setup
 

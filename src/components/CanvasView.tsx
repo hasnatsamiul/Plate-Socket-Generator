@@ -139,7 +139,7 @@ function SocketGroupItem({
     height: pxForCm(ext.h),
     cursor: isActive ? (state.dragging ? "grabbing" : "grab") : "default",
     pointerEvents: isActive ? "auto" : "none",
-    opacity: isActive ? 1 : 0.85,
+    opacity: isActive ? 1 : 0.4,
     position: "absolute",
   };
 
@@ -159,6 +159,7 @@ function SocketGroupItem({
         onPointerDown={isActive ? handlers.onPointerDown : undefined}
         onPointerMove={isActive ? handlers.onPointerMove : undefined}
         onPointerUp={isActive ? handlers.onPointerUp : undefined}
+        // onPointerCancel={isActive ? handlers.onPointerCancel : undefined}
       >
         {Array.from({ length: g.count }).map((_, i) => {
           const offset = i * (SOCKET.size + SOCKET.gap);

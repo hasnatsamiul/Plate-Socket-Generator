@@ -69,7 +69,8 @@ button {
 .canvas {
   position: relative;
   width: 100%;
-  max-width: 760px;
+  max-width: none;
+  height: 70vh;
   aspect-ratio: 1/1;
   min-height: 320px;
   background: #000;
@@ -78,8 +79,8 @@ button {
 }
 .canvasInner {
   position: absolute;
-  inset: 10px;
-} /* padding inside canvas */
+  inset: 20px;
+}
 .canvasFooter {
   margin-top: 8px;
   text-align: center;
@@ -104,6 +105,9 @@ button {
 /* Drag/touch */
 .canvas,
 .socketGroup {
+  touch-action: auto;
+}
+.activeGroup {
   touch-action: none;
 }
 .canvas,

@@ -10,6 +10,18 @@ _(Deployed on Vercel)_
 ## Demo Video
 
 
+
+https://github.com/user-attachments/assets/d066032b-e11d-4241-8a54-9f1a61a32515
+
+## Demo Mobile View
+
+https://github.com/user-attachments/assets/b57b4472-0069-4b53-90bf-67f175faf7ca
+
+
+
+
+
+
 ## Features
 
 - **Plate Management**

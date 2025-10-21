@@ -5,6 +5,7 @@ An interactive builder that lets you design back panels (“plates”) and place
 ## Live Demo (Link)
 
 https://plate-socket-generator.vercel.app/
+
 _(Deployed on Vercel)_
 
 ## Demo Video

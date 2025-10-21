@@ -11,7 +11,7 @@ _(Deployed on Vercel)_
 
 
 
-https://github.com/user-attachments/assets/d066032b-e11d-4241-8a54-9f1a61a32515
+https://github.com/user-attachments/assets/92ef07d2-a2d9-4c68-888b-8392adbf9813
 
 ## Demo Mobile View
 

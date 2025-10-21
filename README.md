@@ -16,7 +16,10 @@ https://github.com/user-attachments/assets/92ef07d2-a2d9-4c68-888b-8392adbf9813
 
 ## Demo Mobile View
 
-https://github.com/user-attachments/assets/b57b4472-0069-4b53-90bf-67f175faf7ca
+
+
+https://github.com/user-attachments/assets/08c63518-9927-4e1c-87ae-115bbdf006d8
+
 
 
 

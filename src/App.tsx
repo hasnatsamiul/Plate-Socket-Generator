@@ -97,10 +97,6 @@ export default function App() {
     return state.groups.filter((g) => g.plateId === focusedPlateId);
   }, [state.socketsEnabled, state.groups, focusedPlateId]);
 
-  // const selectedPlate = state.selectedPlateId
-  //   ? state.plates.find((p) => p.id === state.selectedPlateId) || null
-  //   : null;
-
   /* ---------------------- Render ---------------------- */
 
   return (
@@ -119,12 +115,6 @@ export default function App() {
               }))
             }
           />
-          {/* {selectedPlate && (
-            // <div className="canvasFooter">
-            //   {selectedPlate.width.toFixed(1)} ×{" "}
-            //   {selectedPlate.height.toFixed(1)} cm
-            // </div>
-          )} */}
         </div>
       </div>
 

@@ -389,7 +389,7 @@ function PlateControls({
 
       {/* Plate selector */}
       <div className="gBlock">
-        <label className="gLabel">Wähle die Rückwand für die Steckdose</label>
+        <label className="gLabel">Wählen Sie die Rückseite aus, um diese Steckdosengruppe zu verschieben </label>
         <div className="selectWrap">
           <select
             value={group.plateId}
